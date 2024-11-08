@@ -14,4 +14,5 @@ Para este trabajo se uso Visual Studio code con la extension de Spring Boot y Ja
 Una vez generado todos los directorios que nos ofrece esta extension, empezamos a trabajar sobre el directorio *main\java\com\example\demo*.
 
 Primero creamos un archivo llamado `WeatherService`. Este archivo nos permitira crear las variables que nos serviran para identificar la localidad de donde se quiere obtener las APIs del clima, a su vez de proporcionar la URL de esa API.
+
 ![codigo de WeatherServices](img/weatherServices.png)

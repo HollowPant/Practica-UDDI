@@ -7,6 +7,7 @@ Para esta actividad intentamos simular un sistema UDDI, en donde, creamos un sis
 2. [Información del proyecto](#informacion-del-proyecto)
 3. [Modificación de archivo .java](#modificacion-de-archivos-java)
 4. [Agregar FrontEnd](#agregar-frontend)
+5. [Proyecto funcionando](#proyecto-en-funcionamiento)
 
 # ¿Qué es UDDI?
 Las siglas significan Universal Description, Discovery, and Integration. Podemos entender que es un estándar en donde se publican servicios web. Podemos imaginarlo como un directorio de servicios web, que nos facilita la integración de servicios web en nuestras aplicaciones.

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <i class="fa-solid fa-cloud-meatball"></i>
+            <h1>Weather Service Finder</h1>
+        </div>
+        <img src="assets/c71e03e3a0783c399f665466b76c937a.jpg" alt="">
+        <div class="form">
+            <label for="location">Enter Location: </label>
+            <input type="text" id="location" placeholder="e.g, New York">
+            <button onclick="searchWeather()">Search</button>
+        </div>
+
+        <h2>Available Weather Services:</h2>
+        <div id="weather-results"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

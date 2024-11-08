@@ -54,3 +54,14 @@ En el archivo `style.css` pondremos todos los estilos de nuestra página, de est
 En este archivo llamado `app.js` tendremos el backend conectado con el frontend, esto nos permitirá introducir datos desde nuestra página, hacer la consulta en el backend y visualizarla en la página.
 
 ![codigo app.js](img/js.png)
+
+# Proyecto en Funcionamiento
+Para comprobar que el servicio se esta ejecutando de manera local correctamente tenemos que ver la siguiente captura:
+
+![proyecto funcionando](img/funcionando.png)
+
+Para visualizar la pagina que hemos creado, tenemos que colocar `http://localhost:8080/index.html` en nuestro navegador, por ultimo, veremos lo siguiente:
+
+![pagina](img/pagina.png)
+
+Podemos ver como la pagina esta en funcionamiento, se agrego el parametro "New york" para visualizar una de las APIs que agregamos.

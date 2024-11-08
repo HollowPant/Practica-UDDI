@@ -9,10 +9,23 @@ Para este proyecto, necesitamos el lenguaje de programacion de java, a su vez, d
 ![icono de Spring boot](img/springboot.png)
 
 # Modificacion de archivos .java
-Para este trabajo se uso Visual Studio code con la extension de Spring Boot y Java. Tambien se uso las dependencias de Spring Web.
+Para este trabajo se usó Visual Studio code con la extensión de Spring Boot y Java. También se usó las dependencias de Spring Web.
 
-Una vez generado todos los directorios que nos ofrece esta extension, empezamos a trabajar sobre el directorio *main\java\com\example\demo*.
+Una vez generado todos los directorios que nos ofrece esta extensión, empezamos a trabajar sobre el directorio *main\java\com\example\demo*.
 
-Primero creamos un archivo llamado `WeatherService`. Este archivo nos permitira crear las variables que nos serviran para identificar la localidad de donde se quiere obtener las APIs del clima, a su vez de proporcionar la URL de esa API.
+## Archivo WeatherServices.java
+Primero, creamos un archivo llamado `WeatherService`. Este archivo nos permitirá crear las variables que nos servirán para identificar la localidad de donde se quiere obtener las APIs del clima, a su vez de proporcionar la URL de esa API.
 
 ![codigo de WeatherServices](img/weatherServices.png)
+
+## Archivo WeatherRepository.java
+Este archivo `WeatherRepository.java` nos permitirá simular el sistema UDDI, en donde tendremos las múltiples APIs que nos proporcionan el servicio del clima dependiendo de la localidad. Por lo tanto, necesitamos almacenar las APIs en un arreglo, después la información será devuelta por una función.
+
+![codigo de WeatherRepository](img/weatherRepository.png)
+
+## Archivo WeatherController.java
+En `WeatherController.java` vamos a mostrar la URL de o el servicio web de clima dependiendo de la localidad.
+
+![codigo de WeatherController](img/weatherController.png)
+
+

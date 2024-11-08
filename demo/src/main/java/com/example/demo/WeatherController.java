@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 public class WeatherController {
-    
+
     @Autowired
     private WeatherRepository repository;
 
@@ -16,6 +16,5 @@ public class WeatherController {
     public List<WeatherService> getWeatherServices(@RequestParam String location){
         return repository.findAll().stream()
                 .filter(service -> service.getLocation().equalsIgnoreCase(location)).toList();
-    }
-    
+    }    
 }
